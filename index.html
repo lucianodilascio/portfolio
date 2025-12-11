@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>mi-portfolio</title>
+    <script>
+      // Esta lógica se ejecuta inmediatamente, ANTES que React.
+      const storedTheme = localStorage.getItem('theme');
+      
+      // Si el Local Storage dice 'dark', aplica la clase 'dark' al <html>
+      if (storedTheme === 'dark') {
+        document.documentElement.classList.add('dark');
+      } 
+      // Si no hay ninguna preferencia guardada (primera visita),
+      // establecemos 'light' como predeterminado para consistencia.
+      else if (!storedTheme) {
+        localStorage.setItem('theme', 'light');
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
