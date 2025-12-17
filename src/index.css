@@ -144,6 +144,13 @@
          hover:scale-105 active:scale-95;
 }
 
+@layer components {
+  .avatar-glow {
+    @apply hover:shadow-[0_0_20px_hsl(var(--primary)/0.6)] 
+           hover:border-primary/80 
+           transition-all duration-300;
+  }
+}
 
 #root {
   max-width: 100%;

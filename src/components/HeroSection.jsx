@@ -5,11 +5,16 @@ export const HeroSection = () => {
     return (
         <section
             id="hero"
-            className="relative min-h-screen flex flex-col items-center justify-center px-4"
+            className=" pb-24 relative min-h-screen flex flex-col items-center justify-center px-4"
         >
 
             <div className="container max-w-4xl mx-auto text-center z-10">
                 <div className="space-y-6 ">
+                    <img
+                        src="projects/foto-perfil.jpeg"
+                        className="mt-16 w-40 h-40 md:w-80 md:h-80 mx-auto rounded-full object-cover border-4 border-blue-500 shadow-lg transition-all duration-300 hover:scale-105 hover:shadow-[0_0_20px_hsl(var(--primary)/0.6)] hover:border-primary"
+                        alt="Luciano Dilascio - Frontend Developer"
+                    />
                     <h1 className="text-4xl md:text-6xl font-bold tracking-tight">
                         <span className="opacity-0 animate-fade-in"> Hi, I am</span>
                         <span className="text-glow text-primary opacity-0 animate-fade-in-delay-1"> Luciano</span>
