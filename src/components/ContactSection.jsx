@@ -1,9 +1,10 @@
 import { Mail, Phone, MapPin, Linkedin, Instagram, Github } from "lucide-react";
 
 export const ContactSection = () => {
-    
+
     // DATOS DE CONTACTO
-    const email = "luciano.dilascio14@gmail.com";
+    const email = import.meta.env.VITE_CONTACT_EMAIL;
+    const phone = import.meta.env.VITE_CONTACT_PHONE;
     const subject = "I would like to connect from <name>";
     const body = "I came across your portfolio and would like to connect.";
 
@@ -17,9 +18,9 @@ export const ContactSection = () => {
             id="contact"
             className="py-24 px-4 relative bg-secondary/30"
         >
-            <div className="container mx-auto max-w-3xl"> 
-                
-                <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center"> 
+            <div className="container mx-auto max-w-3xl">
+
+                <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">
                     Contact <span className="text-primary"> Me </span>
                 </h2>
 
@@ -28,12 +29,12 @@ export const ContactSection = () => {
                 </p>
 
                 <div className="bg-card p-8 rounded-lg shadow-sm border border-border">
-                    
+
                     <div className="space-y-8 flex flex-col items-center text-center md:text-left md:items-start">
                         <h3 className="text-2xl font-semibold mb-10 w-full text-center">Contact <span className="text-primary text-glow">Information</span></h3>
 
                         <div className="space-y-6 w-full max-w-md mx-auto">
-                            
+
                             {/* EMAIL */}
                             <div className="flex items-center md:items-start space-x-4">
                                 <div className="p-3 rounded-full bg-primary/10 shrink-0">
@@ -43,7 +44,7 @@ export const ContactSection = () => {
                                     <h4 className="font-medium text-primary text-glow">Email</h4>
                                     {/* Aquí usamos el gmailUrl para asegurar que abra Gmail */}
                                     <a href={gmailUrl} target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors break-all">
-                                        luciano.dilascio14@gmail.com
+                                        {email}
                                     </a>
                                 </div>
                             </div>
@@ -55,8 +56,8 @@ export const ContactSection = () => {
                                 </div>
                                 <div className="text-left">
                                     <h4 className="font-medium text-primary text-glow">Phone</h4>
-                                    <a href="tel:+5492284608904" className="text-muted-foreground hover:text-primary transition-colors">
-                                        +54 9 2284 608904
+                                    <a href={`tel:${phone}`} className="text-muted-foreground hover:text-primary transition-colors">
+                                        {phone}
                                     </a>
                                 </div>
                             </div>
@@ -78,13 +79,13 @@ export const ContactSection = () => {
                         {/* SECCIÓN CONNECT WITH ME */}
                         <div className="pt-8 w-full border-t border-border mt-4">
                             <h4 className="font-medium mb-6 text-center text-lg">Connect with me!</h4>
-                            
+
                             <div className="flex flex-wrap gap-4 justify-center">
-                                
+
                                 {/* BOTÓN DE GMAIL DIRECTO */}
                                 <a
                                     href={gmailUrl} // Usamos la variable gmailUrl
-                                    target="_blank"   
+                                    target="_blank"
                                     rel="noopener noreferrer"
                                     className="p-3 rounded-full bg-secondary/50 hover:bg-primary/20 hover:text-primary transition-all duration-300 hover:-translate-y-1"
                                     title="Send me an email via Gmail"
@@ -110,7 +111,7 @@ export const ContactSection = () => {
                                     <Github className="h-6 w-6" />
                                 </a>
 
-                                
+
                             </div>
                         </div>
 
