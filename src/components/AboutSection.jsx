@@ -19,7 +19,7 @@ export const AboutSection = () => {
                     <div className="space-y-6">
                         <h3 className="text-3xl font-semibold text-primary">Passionate Web Developer</h3>
 
-                        <p className="text-muted-foreground font-medium">Frontend Developer Trainee with over 12 months of intensive training in the MERN Stack (JavaScript, React.js, Node.js.)</p>
+                        <p className="text-muted-foreground font-medium">Frontend Developer with over 12 months of intensive training in the MERN Stack (JavaScript, React.js, Node.js.)</p>
 
                         <p className="text-muted-foreground font-medium">Passionate about continuous learning, problem-solving, teamwork, and experienced in Agile development methodology (Scrum)</p>
 

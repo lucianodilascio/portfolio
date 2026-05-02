@@ -22,7 +22,7 @@ export const HeroSection = () => {
                     </h1>
 
                     <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto opacity-0 animate-fade-in-delay-3">
-                        I'm a <span className="text-primary font-semibold text-glow ">Frontend Developer Trainee </span> with a strong foundation in the MERN stack. I'm deeply passionate about web development, finding joy in building responsive interfaces with <span className="text-primary font-semibold text-glow ">React.js </span>and <span className="text-primary font-semibold text-glow ">JavaScript</span>. My enthusiasm extends to mastering new tools, and I thrive on the challenges of transforming ideas into functional code. Known for my continuous learning and proactive mindset, I'm eager to join a development team and apply innovative technologies to create seamless user experiences.
+                        I'm a <span className="text-primary font-semibold text-glow ">Frontend Developer</span> with a strong foundation in the MERN stack. I'm deeply passionate about web development, finding joy in building responsive interfaces with <span className="text-primary font-semibold text-glow ">React.js </span>and <span className="text-primary font-semibold text-glow ">JavaScript</span>. My enthusiasm extends to mastering new tools, and I thrive on the challenges of transforming ideas into functional code. Known for my continuous learning and proactive mindset, I'm eager to join a development team and apply innovative technologies to create seamless user experiences.
                     </p>
 
                     <div className=" pt-4 opacity-0 animate-fade-in-delay-4" >

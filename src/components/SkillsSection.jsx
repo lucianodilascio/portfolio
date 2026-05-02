@@ -3,26 +3,28 @@ import { useState } from "react";
 import {cn} from "@/lib/utils";
 
 const skills = [
-    // Frontend
-    { name: "HTML5/CSS3", category: "frontend", icon: "Code" }, // Code o otros como 'Monitor', 'SquareTerminal'
-    { name: "JavaScript (ES6+)", category: "frontend", icon: "Sparkles" }, // Sparkles, Zap, o si quieres ser más específico 'FileJs' (si está disponible o similar)
-    { name: "React.js", category: "frontend", icon: "Aperture" }, // Opciones: 'Aperture', 'Atom'
-    { name: "Tailwind CSS", category: "frontend", icon: "Feather" }, // Opciones: 'Feather' o 'Swatch'
-    { name: "SASS / Bootstrap", category: "frontend", icon: "Palette" },
+    // Frontend - Ordenados por relevancia para tu perfil
+    { name: "React.js", category: "frontend", icon: "Atom" }, 
+    { name: "JavaScript (ES6+)", category: "frontend", icon: "Zap" },
+    { name: "TypeScript", category: "frontend", icon: "ShieldCheck" }, 
+    { name: "HTML5 / CSS3", category: "frontend", icon: "Code" },
+    { name: "Tailwind CSS", category: "frontend", icon: "Palette" },
+    { name: "SASS / Bootstrap", category: "frontend", icon: "Layers" },
 
-    // Backend
+    // Backend - Demuestra tu capacidad Full Stack
     { name: "Node.js", category: "backend", icon: "Server" },
-    { name: "Express.js", category: "backend", icon: "Router" },
+    { name: "Express.js", category: "backend", icon: "Cpu" },
     { name: "MongoDB / Mongoose", category: "backend", icon: "Database" },
-    { name: "Firebase", category: "backend", icon: "Cloud" },
-    { name: "JWT / Auth", category: "backend", icon: "Key" },
-    { name: "SQL", category: "backend", icon: "Database" },
+    { name: "Firebase", category: "backend", icon: "Flame" },
+    { name: "SQL", category: "backend", icon: "Table" },
+    { name: "JWT / Auth", category: "backend", icon: "Lock" },
 
-    // Tools
+    // Tools & Methodologies
     { name: "Git / GitHub", category: "tools", icon: "GitBranch" },
-    { name: "Docker", category: "tools", icon: "Anchor" }, // Opciones: 'Container' o 'Anchor'
+    { name: "Docker", category: "tools", icon: "Container" },
     { name: "Postman / Swagger", category: "tools", icon: "Box" },
-    { name: "VS Code", category: "tools", icon: "Monitor" }, // Opciones: 'Monitor' o 'Laptop'
+    { name: "Agile (Scrum)", category: "tools", icon: "Users" }, 
+    { name: "VS Code", category: "tools", icon: "Laptop" },
 ];
 
 const categories = ["all", "frontend", "backend", "tools"];

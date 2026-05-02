@@ -25,7 +25,7 @@ export const ContactSection = () => {
                 </h2>
 
                 <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-                    I am currently seeking new Frontend opportunities and collaborations. Specializing in crafting high-quality, responsive user interfaces with <span className="text-primary font-semibold text-glow "> React JS </span>. Feel free to reach out via email or social media.
+                    I am currently seeking new Frontend Developer opportunities and collaborations. Specializing in crafting high-quality, responsive user interfaces with <span className="text-primary font-semibold text-glow "> React JS </span>. Feel free to reach out via email or social media.
                 </p>
 
                 <div className="bg-card p-8 rounded-lg shadow-sm border border-border">

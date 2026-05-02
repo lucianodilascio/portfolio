@@ -2,60 +2,59 @@ import { ArrowRight } from "lucide-react";
 
 const projects = [
     {
-        id: 1,
-        title: "Web Development Course (HTML- CSS)",
-        description: "A responsive landing page for a sneaker store, built using modern HTML and CSS principles.",
-        image: "/projects/desarrollo-web.jpg",
-        tags: ["HTML", "CSS", "Flexbox", "Grids", "Bootstrap", "Git", "Sass", "Animations", "SEO"],
-        demoUrl: "https://lucianodilascio.github.io/proyecto/",
-        githubUrl: "https://github.com/lucianodilascio/proyecto"
-    },
-    {
-        id: 2,
-        title: "Javascript Course: Footwear E-commerce",
-        description: "A footwear E-commerce platform implementation focusing on core JavaScript concepts, DOM manipulation, and asynchronous operations.",
-        image: "/projects/javascript.jpg",
-        tags: ["Functions", "Objects", "Arrays", "DOM", "Events", "Storage", "Fetch", "Promises", "NodeJS"],
-        demoUrl: "https://lucianodilascio.github.io/proyectoJavascript/",
-        githubUrl: "https://github.com/lucianodilascio/proyectoJavascript",
-    },
-    {
-        id: 3,
-        title: "React JS: Sports Clothing E-commerce",
-        description: "A modern E-commerce site for sports clothing built with React, showcasing component structure, state management (Hooks), and Firebase integration.",
+        id: 3, 
+        title: "Sports Clothing E-commerce",
+        description: "A high-performance Single Page Application (SPA) built with React. Featuring complex state management, dynamic routing, and Firebase integration for real-time data persistence.",
         image: "/projects/ReactJS.jpg",
-        tags: ["React", "JSX", "Components", "Hooks", "Routing", "Firebase", "APIs"],
+        tags: ["React", "Hooks", "Firebase", "React Router", "Context API", "Responsive Design"],
         demoUrl: "https://curso-react-alpha-ten.vercel.app/",
         githubUrl: "https://github.com/lucianodilascio/curso-react",
     },
     {
-        id: 4,
-        title: "Backend Development I: Advanced Web Servers",
-        description: "Foundational and advanced backend development focused on creating robust web servers, handling persistent data (MongoDB), and real-time communication (Websockets).",
-        image: "/projects/backend-1.jpg",
-        tags: ["NodeJS", "Express", "MongoDB", "Mongoose", "Websockets", "Multer"],
+        id: 2,
+        title: "Interactive Footwear Platform",
+        description: "An advanced E-commerce implementation focused on DOM manipulation and asynchronous programming. Managed complex data structures and user events to create a seamless shopping experience.",
+        image: "/projects/javascript.jpg",
+        tags: ["JavaScript (ES6+)", "DOM Manipulation", "Async/Await", "Local Storage", "Events"],
+        demoUrl: "https://lucianodilascio.github.io/proyectoJavascript/",
+        githubUrl: "https://github.com/lucianodilascio/proyectoJavascript",
+    },
+    {
+        id: 1,
+        title: "Sneaker Store Landing Page",
+        description: "A modern, fully responsive landing page optimized for performance and SEO. Built using advanced CSS techniques like Flexbox and Grid, following UI/UX best practices.",
+        image: "/projects/desarrollo-web.jpg",
+        tags: ["HTML5", "CSS3", "Sass", "Flexbox", "Grid", "SEO Optimization", "Animations"],
+        demoUrl: "https://lucianodilascio.github.io/proyecto/",
+        githubUrl: "https://github.com/lucianodilascio/proyecto"
+    },
+    {
+        id: 6, 
+        title: "Scalable API & Cloud Architecture",
+        description: "Advanced server implementation using Nest.js and Docker. Focused on system scalability, performance testing, and containerized deployment for modern cloud environments.",
+        image: "/projects/backend-3.jpg",
+        tags: ["Nest.js", "Docker", "Kubernetes", "Scalability", "Testing", "DevOps Basics"],
         demoUrl: null,
-        githubUrl: "https://github.com/lucianodilascio/backendfinalentrega1"
+        githubUrl: "https://github.com/lucianodilascio/backend-3"
     },
     {
         id: 5,
-        title: "Backend Development II: Architecture and Security",
-        description: "Focus on server security, authentication strategies (JWT, Passport), advanced routing, process management, and implementing layered server architectures.",
+        title: "Secure Auth & Layered Architecture",
+        description: "A robust backend system featuring JWT and Passport authentication. Implemented layered architecture patterns to ensure clean code, security, and maintainability.",
         image: "/projects/backend-2.jpg",
-        tags: ["Authentication", "JWT", "Passport", "Sessions", "Layered Architecture", "Mailing"],
+        tags: ["Node.js", "Express", "JWT", "Passport", "Security", "Layered Architecture"],
         demoUrl: null,
         githubUrl: "https://github.com/lucianodilascio/backend-2"
     },
     {
-        id: 6,
-        title: "Backend Development III: Testing and Scalability",
-        description: "Advanced topics in server optimization, performance testing, security, containerization (Docker/Kubernetes), and professional testing methodologies.",
-        image: "/projects/backend-3.jpg",
-        tags: ["Testing", "Optimization", "Docker", "Kubernetes", "Scalability", "Nest.js"],
+        id: 4,
+        title: "Real-time Backend Server",
+        description: "Full-featured web server with persistent storage (MongoDB) and real-time bidirectional communication using Websockets.",
+        image: "/projects/backend-1.jpg",
+        tags: ["Node.js", "Express", "MongoDB", "Mongoose", "Websockets", "API REST"],
         demoUrl: null,
-        githubUrl: "https://github.com/lucianodilascio/backend-3"
+        githubUrl: "https://github.com/lucianodilascio/backendfinalentrega1"
     }
-
 ];
 
 export const ProjectsSection = () => {
