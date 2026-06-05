@@ -5,7 +5,7 @@ const projects = [
         id: 7, 
         title: "Bloom Haircare E-commerce",
         description: "A premium, full-stack e-commerce application. Features a dynamic catalog, centralized cart management with strict stock validation per variant, and a seamless checkout flow with asynchronous state transitions and real-time database persistence.",
-        image: "/projects/bloom.jpg", 
+        image: "/projects/bloom-portfolio.jpg", 
         tags: ["React", "Tailwind CSS", "Firebase", "Firestore", "React Router", "Context API", "CI/CD"],
         demoUrl: "https://bloom-haircare-one.vercel.app/",
         githubUrl: "https://github.com/lucianodilascio/bloom-haircare",
