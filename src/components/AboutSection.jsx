@@ -1,4 +1,4 @@
-import LucianoCV from "@/assets/CV_Dilascio_Luciano.pdf";
+import LucianoCV from "@/assets/CV_Dilascio_Luciano_english.pdf";
 import { Code, User, GraduationCap } from "lucide-react";
 
 
